@@ -12,6 +12,8 @@ A Java-based application to securely store, retrieve, and manage sensitive files
 3. **Secure File Upload & Download:**  
 4. **Access Control:**
 5. **Secure File Sharing:**  
-6. **Integrity Checks:**  
+6. **Integrity Checks:**
+7. **Backup & Recovery:**  
+8. **Auditing & Notification System:**  
 
      
