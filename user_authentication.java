@@ -52,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .formLogin();
     }
 }
-@RestController
+
 public class TestController {
 
     @GetMapping("/hello")
