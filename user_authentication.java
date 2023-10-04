@@ -8,4 +8,7 @@ public class AppUser {
     private String password;
     // getters, setters, and other methods
 }
+public interface UserRepository extends JpaRepository<AppUser, Long> {
+    Optional<AppUser> findByUsername(String username);
+}
 
