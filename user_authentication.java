@@ -52,17 +52,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .formLogin();
     }
 }
-public class TestController {
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello, authenticated user!";
-    }
-}
-
-
-
-
 
 
 
